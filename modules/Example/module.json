@@ -1,0 +1,15 @@
+{
+    "name": "Example",
+    "alias": "example",
+    "namespace": "Modules\\Example\\",
+    "provider": "Modules\\Example\\Providers\\ExampleServiceProvider",
+    "version": "1.0.0",
+    "description": "Reference module demonstrating the full project pattern (CRUD + Service + Resource + Meta + Hook + Test). Copy this folder and rename to scaffold a new module.",
+    "depends": [],
+    "actions": [
+        { "id": "example.list",   "description": "View examples" },
+        { "id": "example.create", "description": "Create examples" },
+        { "id": "example.update", "description": "Update examples" },
+        { "id": "example.delete", "description": "Delete examples" }
+    ]
+}
